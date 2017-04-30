@@ -23,7 +23,7 @@ exports = module.exports = __webpack_require__(16)();
 
 
 // module
-exports.push([module.i, "/* You can add global styles to this file, and also import other style files */\nbody {\n  background-image: url(" + __webpack_require__(200) + ");\n  background-size: cover;\n  background-position: center center;\n  background-attachment: fixed;\n}\n", ""]);
+exports.push([module.i, "/* You can add global styles to this file, and also import other style files */\nbody {\n  background-image: url(" + __webpack_require__(200) + ");\n  background-size: cover;\n  background-position: center center;\n  background-attachment: fixed;\n}\n@media (max-width: 1000px) {\n  #carouselExampleControls {\n    display: none;\n  }\n}\n@media (max-width: 765px) {\n  app-menu {\n    margin: 0 auto;\n  }\n  #menu {\n    text-align: center;\n    display: -webkit-box !important;\n    display: -ms-flexbox !important;\n    display: flex !important;\n    -webkit-box-orient: horizontal !important;\n    -webkit-box-direction: normal !important;\n        -ms-flex-direction: row !important;\n            flex-direction: row !important;\n    font-size: 0.75em;\n  }\n  .nav-link {\n    display: inline !important;\n  }\n\n}\n\n", ""]);
 
 // exports
 
@@ -90,7 +90,7 @@ module.exports = function() {
 /***/ 200:
 /***/ (function(module, exports, __webpack_require__) {
 
-module.exports = __webpack_require__.p + "back1.b15a836dd2691695a9f1.jpg";
+module.exports = __webpack_require__.p + "back.b3526d274e20b29d1eba.jpg";
 
 /***/ }),
 

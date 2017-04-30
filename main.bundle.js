@@ -168,7 +168,7 @@ exports = module.exports = __webpack_require__(16)();
 
 
 // module
-exports.push([module.i, ".main {\n  background-color: aliceblue;\n}\n.main {\n  height: 100vh;\n}\n\n.vertical-align {\n  display: -webkit-box;\n  display: -ms-flexbox;\n  display: flex;\n  -webkit-box-align: center;\n      -ms-flex-align: center;\n          align-items: center;\n}\n.my-carousel {\n  margin-top: 15px;\n}\n.carousel-item {\n  width: auto;\n  height: 300px;\n}\n\n.footer {\n  position: absolute;\n  background-color: black;\n  color: white;\n  width: 100%;\n  bottom: 0;\n  text-align: center;\n  margin: 0 -15px;\n}\n\n@media (max-width: 600px) {\n  .menu {\n    height: auto;\n    display: block;\n    clear: both;\n    width: 100%;\n  }\n  .content {\n    display: block;\n    width: 100%;\n  }\n}\n\n\n", ""]);
+exports.push([module.i, ".main {\n  background-color: aliceblue;\n}\n.main {\n  height: 100vh;\n}\n\n.vertical-align {\n  display: -webkit-box;\n  display: -ms-flexbox;\n  display: flex;\n  -webkit-box-align: center;\n      -ms-flex-align: center;\n          align-items: center;\n}\n.my-carousel {\n  margin-top: 15px;\n}\n.carousel-item {\n  width: auto;\n  height: 300px;\n}\n\n.footer {\n  position: absolute;\n  background-color: black;\n  color: white;\n  width: 100%;\n  bottom: 0;\n  text-align: center;\n  margin: 0 -15px;\n}\n\n\n\n\n", ""]);
 
 // exports
 
@@ -186,7 +186,7 @@ exports = module.exports = __webpack_require__(16)();
 
 
 // module
-exports.push([module.i, "div {\n  font-family: \"Helvetica Neue\",Helvetica,Arial,sans-serif;\n  background-color: inherit;\n  border: inherit;\n  padding-top: 2%;\n  padding-left: 4%;\n  white-space: pre;\n}\n", ""]);
+exports.push([module.i, "div {\n  font-family: \"Helvetica Neue\",Helvetica,Arial,sans-serif;\n  background-color: inherit;\n  border: inherit;\n  padding-top: 2%;\n  padding-left: 4%;\n  white-space: pre-wrap;\n}\n", ""]);
 
 // exports
 
@@ -217,7 +217,7 @@ module.exports = module.exports.toString();
 /***/ 167:
 /***/ (function(module, exports) {
 
-module.exports = "<div class=\"container\">\n\n  <div class=\"row\">\n    <div class=\"col-md-4 col-lg-3 vertical-align\">\n      <app-menu></app-menu>\n    </div>\n    <div class=\"col-md-8 col-lg-9 main\">\n      <div id=\"carouselExampleControls\" class=\"carousel slide my-carousel\" data-ride=\"carousel\">\n        <div class=\"carousel-inner\" role=\"listbox\">\n          <div class=\"carousel-item active\">\n            <img class=\"d-block img-fluid\" src=\"assets/images/2.jpg\" alt=\"First slide\">\n          </div>\n          <div class=\"carousel-item\">\n            <img class=\"d-block img-fluid\" src=\"assets/images/1.jpg\" alt=\"Second slide\">\n          </div>\n          <div class=\"carousel-item\">\n            <img class=\"d-block img-fluid\" src=\"assets/images/3.jpg\" alt=\"Third slide\">\n          </div>\n          <div class=\"carousel-item\">\n            <img class=\"d-block img-fluid\" src=\"assets/images/4.jpg\" alt=\"Fourth slide\">\n          </div>\n        </div>\n        <a class=\"carousel-control-prev\" data-target=\"#carouselExampleControls\" role=\"button\" data-slide=\"prev\">\n          <span class=\"carousel-control-prev-icon\" aria-hidden=\"true\"></span>\n          <span class=\"sr-only\">Previous</span>\n        </a>\n        <a class=\"carousel-control-next\" data-target=\"#carouselExampleControls\"  role=\"button\"  data-slide=\"next\">\n          <span class=\"carousel-control-next-icon\" aria-hidden=\"true\"></span>\n          <span class=\"sr-only\">Next</span>\n        </a>\n      </div>\n      <div>\n        <h1>Gorbovyi Myron</h1>\n        Back-end & Front-end Developer\n      </div>\n      <hr/>\n        <router-outlet></router-outlet>\n      <span class=\"footer\">&copy; by gipotalamus</span>\n    </div>\n  </div>\n</div>\n\n\n\n\n\n\n\n"
+module.exports = "<div class=\"container\">\n\n  <div class=\"row\">\n    <div class=\"col-md-4 col-lg-3 vertical-align menu\">\n      <app-menu></app-menu>\n    </div>\n    <div class=\"col-md-8 col-lg-9 main\">\n      <div id=\"carouselExampleControls\" class=\"carousel slide my-carousel\" data-ride=\"carousel\">\n        <div class=\"carousel-inner\" role=\"listbox\">\n          <div class=\"carousel-item active\">\n            <img class=\"d-block img-fluid\" src=\"assets/images/2.jpg\" alt=\"First slide\">\n          </div>\n          <div class=\"carousel-item\">\n            <img class=\"d-block img-fluid\" src=\"assets/images/1.jpg\" alt=\"Second slide\">\n          </div>\n          <div class=\"carousel-item\">\n            <img class=\"d-block img-fluid\" src=\"assets/images/3.jpg\" alt=\"Third slide\">\n          </div>\n          <div class=\"carousel-item\">\n            <img class=\"d-block img-fluid\" src=\"assets/images/4.jpg\" alt=\"Fourth slide\">\n          </div>\n          <div class=\"carousel-item\">\n            <img class=\"d-block img-fluid\" src=\"assets/images/5.jpg\" alt=\"Fifth slide\">\n          </div>\n        </div>\n        <a class=\"carousel-control-prev\" data-target=\"#carouselExampleControls\" role=\"button\" data-slide=\"prev\">\n          <span class=\"carousel-control-prev-icon\" aria-hidden=\"true\"></span>\n          <span class=\"sr-only\">Previous</span>\n        </a>\n        <a class=\"carousel-control-next\" data-target=\"#carouselExampleControls\"  role=\"button\"  data-slide=\"next\">\n          <span class=\"carousel-control-next-icon\" aria-hidden=\"true\"></span>\n          <span class=\"sr-only\">Next</span>\n        </a>\n      </div>\n      <div>\n        <h1>Gorbovyi Myron</h1>\n        Back-end & Front-end Developer\n      </div>\n      <hr/>\n        <router-outlet></router-outlet>\n      <span class=\"footer\">&copy; by gipotalamus</span>\n    </div>\n  </div>\n</div>\n\n\n\n\n\n\n\n"
 
 /***/ }),
 
@@ -231,7 +231,7 @@ module.exports = "<div [@componentStatus]=\"componentStatus\">\n  {{dataText}}\n
 /***/ 169:
 /***/ (function(module, exports) {
 
-module.exports = "<nav class=\"nav flex-column\">\n  <a class=\"nav-link\" routerLinkActive=\"active\" routerLink=\"/general\">General</a>\n  <a class=\"nav-link\" routerLinkActive=\"active\" routerLink=\"/skills\">Programming skills</a>\n  <a class=\"nav-link\" routerLinkActive=\"active\" routerLink=\"/education\">Education</a>\n  <a class=\"nav-link\" routerLinkActive=\"active\" routerLink=\"/interests\">Interests</a>\n  <a class=\"nav-link\" routerLinkActive=\"active\" routerLink=\"/contacts\">Contacts</a>\n</nav>\n"
+module.exports = "<nav class=\"nav flex-column\" id=\"menu\">\n  <a class=\"nav-link\" routerLinkActive=\"active\" routerLink=\"/general\">General</a>\n  <a class=\"nav-link\" routerLinkActive=\"active\" routerLink=\"/skills\">Skills</a>\n  <a class=\"nav-link\" routerLinkActive=\"active\" routerLink=\"/education\">Education</a>\n  <a class=\"nav-link\" routerLinkActive=\"active\" routerLink=\"/interests\">Interests</a>\n  <a class=\"nav-link\" routerLinkActive=\"active\" routerLink=\"/contacts\">Contacts</a>\n</nav>\n"
 
 /***/ }),
 
